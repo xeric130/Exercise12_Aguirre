@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body class="bg-dark">
+    <!--<div class="container-fluid bg-warning p-2"> -->
+        <!--<h3>My Bucket List</h3>
+    </div>-->
+    <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+        <div class="container-fluid">
+                <a class="navbar-brand h1" href="">
+                My Bucket List
+                </a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigationExercise10">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <!--navigation bar-->
+            <!--Navigation button-->
+            <div class="collapse navbar-collapse" id="navigationExercise10">
+
+                <!--Navigation List-->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="">
+                            Home
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownSample" data-bs-toggle="dropdown" >
+                            About
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    Sample 1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-item">
+                                    Sample 2
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">
+                            Contact Us
+                        </a>
+
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!--end of Navigation bar-->
+    <!--<div class="container-fluid p-0">
+        <img src="img/bato2.jpg" class="w-100" alt="">
+    </div>-->
+
+    <!--carousel-->
+    <div id="carouselSample" class="carousel slide" data-bs-ride="carousel">
+        <!--carousel indicator-->
+        <div class="carousel-indicators">
+            <button data-bs-target="#carouselSample" data-bs-slide-to="0" class="active">
+
+            </button>
+            <button data-bs-target="#carouselSample" data-bs-slide-to="1">
+                
+            </button>
+            <button data-bs-target="#carouselSample" data-bs-slide-to="2"> 
+                
+            </button>
+        </div>
+       
+         <!--carousel indicator-->
+
+        <!--carousel body-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/cake1.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-block d-none d-md-block">
+                    <h3>Sample writing</h3>
+                    <p>sample no more</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/choco.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-block d-none d-md-block">
+                    <h3>Sample writing</h3>
+                    <p>sample no more</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/sanrival.jpg" class="d-block w-100" alt="">
+                <div class="carousel-caption d-block d-none d-md-block">
+                    <h3>Sample writing</h3>
+                    <p>sample no more</p>
+                </div>
+            </div>
+        </div>
+    
+        <!--It is important to which carousel item is active-->
+        <!--End of carousel body-->
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselSample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+
+
+        <div class="container my-5">
+
+            <h1 class="text-warning">Top 5 Hiking Destinations</h1>
+            <br>
+            <!--start of col-->
+            <div class="row g-3">
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="img/kiamo2.jpg" class="card-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Campsite</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ipsa facilis
+                                 doloremque velit distinctio sequi quidem modi, dolores nemo nisi accusamus eos 
+                                 vero excepturi non quod illo tempora explicabo delectus.
+                            </p>
+                            <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal1">Learn more</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="img/camp.jpg" class="card-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Campsite</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ipsa facilis
+                                 doloremque velit distinctio sequi quidem modi, dolores nemo nisi accusamus eos 
+                                 vero excepturi non quod illo tempora explicabo delectus.
+                            </p>
+                            <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#sampleModal2">Learn more</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="img/sort2.jpg" class="card-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Campsite</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ipsa facilis
+                                 doloremque velit distinctio sequi quidem modi, dolores nemo nisi accusamus eos 
+                                 vero excepturi non quod illo tempora explicabo delectus.
+                            </p>
+                            <a href="" class="btn btn-warning">Learn more</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="img/camp1.jpg" class="card-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Campsite</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ipsa facilis
+                                 doloremque velit distinctio sequi quidem modi, dolores nemo nisi accusamus eos 
+                                 vero excepturi non quod illo tempora explicabo delectus.
+                            </p>
+                            <a href="" class="btn btn-warning">Learn more</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-4">
+                    <div class="card h-100">
+                        <img src="img/camp3.jpg" class="card-img">
+                        <div class="card-body">
+                            <h5 class="card-title">Campsite</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto ipsa facilis
+                                 doloremque velit distinctio sequi quidem modi, dolores nemo nisi accusamus eos 
+                                 vero excepturi non quod illo tempora explicabo delectus.
+                            </p>
+                            <a href="" class="btn btn-warning">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Container-->
+
+        <div class="container-fluid bg-warning p-2">
+            <h5>Copyright 2023</h5>
+        </div>
+
+        <!--Modal-->
+        <div class="modal fade" id="sampleModal1">
+            <div class="modal-dialog">
+
+                <!--modal sizes modal-xl,sm,lg,fullscreen-->
+
+                <div class="modal-content">
+                <!--modal header-->
+                <div class="modal-header">
+                    <h4 class="modal-title">Morning View</h4>
+                </div>
+                <!--modal header-->     
+                    <div class="modal-body text-center">
+                        <img src="img/cup.jpg" class="img-fluid" alt="">
+                        <h3>View at the Top</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias 
+                            repudiandae sapiente autem corporis delectus, itaque sit, saepe quae
+                             asperiores quia officiis ipsa dolorum, aspernatur quidem deserunt! Corrupti eos ut id?
+                        </p>
+                    </div>
+                    <!--modal footer-->
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">close</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="modal fade" id="sampleModal2">
+            <div class="modal-dialog">
+
+                <!--modal sizes modal-xl,sm,lg,fullscreen-->
+
+                <div class="modal-content">
+                <!--modal header-->
+                <div class="modal-header">
+                    <h4 class="modal-title">Morning View</h4>
+                </div>
+                <!--modal header-->     
+                    <div class="modal-body text-center">
+                        <img src="img/sort.jpg" class="img-fluid" alt="">
+                        <h3>View at the Top</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias 
+                            repudiandae sapiente autem corporis delectus, itaque sit, saepe quae
+                             asperiores quia officiis ipsa dolorum, aspernatur quidem deserunt! Corrupti eos ut id?
+                        </p>
+                    </div>
+                    <!--modal footer-->
+                    <div class="modal-footer">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">close</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

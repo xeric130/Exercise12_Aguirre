@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        h2{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand h1" href="">
+                The Novelist Choice
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigation1">
+
+            </button>
+            <div class="collapse navbar-collapse" id="navigation1">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="">
+                            <i class="fa-solid fa-house fa-sm"></i>Home
+                        </a>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown1" data-bs-toggle="dropdown">
+                            <i class="fa-solid fa-bars fa-sm"></i>Novel List
+                         </a>
+                        <ul class="dropdown-menu">
+                        <li>
+                            <a href="#point1" class="dropdown-item">
+                                Most Popular
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#point2" class="dropdown-item">
+                                Latest release
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="dropdown-item">
+                                Completed Novel
+                            </a>
+                    </li>
+
+                </ul>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="">
+                        <i class="fa-solid fa-circle-user fa-sm"></i> Contact Us
+                    </a>
+
+                </li>
+            </ul>
+            <!--<div class="nav justify-content-end">-->
+            <!--<form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-danger" type="button">Search</button>
+            </form>
+            </div>-->
+       
+            </div>
+        </div>
+
+    </nav>
+    <br> <br> <br> <br> <br> <br> 
+
+    <!--carousel-->
+    <div class="container" id="start">
+        <div id="carouselSample" class="carousel slide" data-bs-ride="carousel">
+            <!--indicator-->
+            <!--<div class="carousel-indicators">
+                <button data-bs-target="#carouselSample" data-bs-slide-to="0" class="active">
+    
+                </button>
+                <button data-bs-target="#carouselSample" data-bs-slide-to="1">
+                    
+                </button>
+                <button data-bs-target="#carouselSample" data-bs-slide-to="2"> 
+                    
+                </button>
+            </div>-->
+              <!--indicator-->
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/martial.png"  class="mx-auto d-block" style="width:50%" alt="">
+                    <h3 class="text-center text-warning">Martial God asura</h3>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/mech.png"  class="mx-auto d-block" style="width:50%" alt="">
+                    <h3 class="text-center text-warning">The Mech Touch</h3>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/beast.png" class="mx-auto d-block" style="width:50%" alt="">
+                    <h3 class="text-center text-warning">Beastmaster of Ages</h3>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselSample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselSample" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="container-fluid my-5" id="point1">
+            <h2 class="text-center text-light">
+                "MOST POPULAR"
+            </h2>
+       <div class="row bg-dark">
+        <div class="col-md-3">
+            <div class="card h-100">
+                <div class="card header">
+                    <h3 class="text-dark">RANK 1</h3> 
+                </div>
+                <img src="img/god1.jpg" class="card-img-top w-100" alt="">
+                <div class="card body text-center">
+                    <h4 class="card-title"><i class="fa-solid fa-book"></i>God of Fishing</h4><br>
+                    <h6 class="card-subtitle"><i class="fa-solid fa-user"></i>Pig That Can Howl Like A Wolf</h6>
+                    <br>
+                    <p class="card-text">
+                        Adventure, Romance, Action
+                
+                    </p>
+                    <br>
+                    <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#modal1">
+                        <i class="fa-regular fa-circle-right"></i>READ FIRST</a>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="https://freewebnovel.com/god-of-fishing.html" target="_blank" class="btn btn-warning">
+                        <i class="fa-solid fa-book"></i>Chapter List</a>
+                </div>
+            </div>
+           
+        </div>
+        <div class="col-md-3">
+            <div class="card h-100">
+                <div class="card header">
+                    <h3 class="text-dark">RANK 2</h3> 
+                </div>
+                <img src="img/invi1.jpg" class="card-img-top  w-100" alt="">
+                <div class="card body text-center">
+                    <h4 class="card-title"><i class="fa-solid fa-book"></i>Invincible Conqueror</h4>
+                    <br>
+                    <h6 class="card-subtitle"><i class="fa-solid fa-user"></i>Shen Jian</h6>
+                    <br>
+                    <p class="card-text text-center">
+                        Xuanhuan, Action, Seinen, Drama, Martial Arts, Harem
+                    </p>
+                   
+                    <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#modal2">
+                        <i class="fa-regular fa-circle-right"></i>READ FIRST</a>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="https://freewebnovel.com/invincible-novel.html" target="_blank" class="btn btn-warning">
+                        <i class="fa-solid fa-book"></i>Chapter List</a>
+                </div>
+                    
+                </div>
+                
+            </div>
+            
+        
+            <div class="col-md-3">
+            <div class="card h-100">
+                <div class="card header">
+                    <h3 class="text-dark">RANK 3</h3> 
+                </div>
+                <img src="img/ma1.jpg" class="card-img-top w-100" alt="">
+                <div class="card body text-center">
+                    <h4 class="card-title"><i class="fa-solid fa-book"></i>martial Peak</h4>
+                    <br>
+                    <h6 class="card-subtitle"><i class="fa-solid fa-user"></i>莫默, Momo</h6>
+                    <br>
+                    <p class="card-text">
+                        Fantasy, Martial Arts, Mature, Action, Xuanhuan, Harem
+                    </p>
+                    <br>
+                    <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#modal3">
+                        <i class="fa-regular fa-circle-right"></i>READ FIRST</a>
+                </div>
+                <div class="card-footer text-center">
+                   <a href="https://freewebnovel.com/martial-peak.html" target="_blank" class="btn btn-warning">
+                    <i class="fa-solid fa-book"></i>Chapter List</a>
+                </div>
+                </div>
+                
+            </div>
+            
+        
+        <div class="col-md-3">
+            <div class="card h-100">
+                <div class="card header">
+                    <h3 class="text-dark">RANK 4</h3> 
+                </div>
+                <img src="img/empe.jpg" class="card-img-top" alt="" >
+                <div class="card body text-center">
+                    <h4 class="card-title"><i class="fa-solid fa-book"></i>Emperor Domination</h4>
+                    <br>
+                    <h6 class="card-subtitle"><i class="fa-solid fa-user"></i>Yan Bi Xiao Sheng</h6>
+                    <br>
+                    <p class="card-text">
+                         Xuanhuan, Adventure, Mature, Mystery,
+                    </p>
+                    <a class="btn btn-warning" type="button" data-bs-toggle="modal" data-bs-target="#modal4">
+                        <i class="fa-regular fa-circle-right"></i>READ FIRST</a>
+                </div>
+                <div class="card-footer text-center">
+                    <a href="https://freewebnovel.com/emperors-domination.html" target="_blank" class="btn btn-warning">
+                        <i class="fa-solid fa-book"></i>Chapter List</a>
+
+                </div>
+                </div>
+               
+            </div>
+            
+        </div>
+       </div>
+
+    </div>
+    <!--modal-->
+    <div class="modal fade" id="modal1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal header">
+                    <h4 class="modal-title">God of Fishing</h4>
+                </div>
+                <div class="model-body text-center bg-dark text-light">
+                    <img src="img/god.png" class="img-fluid" alt="">
+                    <h3>God of Fishing</h3>
+                    <p>
+                        In a world where humanity lives in suspended space, children undergo a fishing test when they come of age. Those with immaculate talents have the possibility of becoming great fishing masters.
+                        In the endless sea, every life is imbued with a sacred mission. There are fish that can fly, turtles that have absorbed the worldly essence, and whales that can devour the heaven and earth… There are also countless fishers.
+                        Fishing is an art.
+                        There is an ancient saying: If you can’t fish, you might as well be bait.
+                    </p>
+                </div>
+                <div class="modal-footer bg-warning">
+                    <button class="btn btn-danger bg-danger" data-bs-dismiss="modal"><i class="fa-solid fa-hexagon-xmark">close</i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal header">
+                    <h4 class="modal-title">God of Fishing</h4>
+                </div>
+                <div class="model-body text-center bg-dark text-light">
+                    <img src="img/invi.png" class="img-fluid" alt="">
+                    <h3>Invincible Coqueror</h3>
+                    <p>
+                        he strong are lonesome. Overcoming the loneliness pushes you to stand invincible at the top.
+
+                        Pro-disciple of the Shaolin Temple on Earth, Huang Xiaolong was reborn into a Martial Spirit world, carrying Hua Xia’s secret knowledge, the Body Metamorphose Scripture. In a Martial Spirit world, only those with Martial Spirit are able to train in battle qi and become a warrior.
+                        
+                        Huang Xiaolong – born with a heaven-defying rare Martial Spirit – was mistakenly taken for common variant Martial Spirit during the awakening ceremony conducted by the tribe and thus sidelined. 
+                    </p>
+                </div>
+                <div class="modal-footer bg-warning">
+                    <button class="btn btn-danger bg-danger" data-bs-dismiss="modal"><i class="fa-solid fa-hexagon-xmark">close</i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal header">
+                    <h4 class="modal-title">God of Fishing</h4>
+                </div>
+                <div class="model-body text-center bg-dark text-light">
+                    <img src="img/martialpeak.png" class="img-fluid" alt="">
+                    <h3>Martial Peak</h3>
+                    <p>
+                        The journey to the martial peak is a lonely, solitary and long one. In the face of adversity, 
+                        you must survive and remain unyielding. Only then can you break through and continue on your 
+                        journey to become the strongest. High Heaven Pavilion tests its disciples in the harshest ways
+                         to prepare them for this journey. One day the lowly sweeper Kai Yang managed to obtain a black book, 
+                         setting him on the road to the peak of the martials world.
+                    </p>
+                </div>
+                <div class="modal-footer bg-warning">
+                    <button class="btn btn-danger bg-danger" data-bs-dismiss="modal"><i class="fa-solid fa-hexagon-xmark">close</i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modal4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal header">
+                    <h4 class="modal-title">God of Fishing</h4>
+                </div>
+                <div class="model-body text-center bg-dark text-light">
+                    <img src="img/world boook.png" class="img-fluid" alt="">
+                    <h3>Emperor's Domination</h3>
+                    <p>
+                             A boy that was imprisoned for millions of years has regained a mortal body.
+                            He became a disciple of the declining Cleansing Incense Ancient Sect where its patriarch used to be his disciple. Now he will bring this sect back to its former glory.
+                            This is his journey to reach the apex and take revenge on those who had imprisoned him.
+                            This is his story of meeting old friends and making new companions.
+                            This is his path of traversing the Nine Worlds and becoming the next ruler of the Heavens.
+                    </p>
+                </div>
+                <div class="modal-footer bg-warning">
+                    <button class="btn btn-danger bg-danger" data-bs-dismiss="modal"><i class="fa-solid fa-hexagon-xmark">close</i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of Modal-->
+    <!--Bs table-->
+    <div class="container-fluid mt-3 bg-white" id="point2">
+        <h2 class="text-dark">"Latest Release"</h2>
+        <div class="row">
+
+            <div class="col-md-8">
+               
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Genre</th>
+                            <th>chapter</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>My Rich Wife</td>
+                            <td>fantasy,Romance</td>
+                            <td>chapter 1189</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>The Most Generous Master</td>
+                            <td>Action,Adventure</td>
+                            <td>chapter 963</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>The Legend of Swordsman</td>
+                            <td>Martial Arts,Xuanhuan</td>
+                            <td>Chapter 4763</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Alchemy Emperor of the Divine Dao</td>
+                            <td>Actions,Martials Arts</td>
+                            <td>Chapter 3055</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Red Envelope Group of the Three Realms</td>
+                            <td>Supernatural,Fantasy</td>
+                            <td>Chapter 4655</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>Lord of The World</td>
+                            <td>Action,Fantasy</td>
+                            <td>Chapter 764</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>The Good for Nothing 2nd Miss</td>
+                            <td>Adult,Fantasy,Romance</td>
+                            <td>Chapter 2633</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>I Became Forensic Doctor</td>
+                            <td>Drama,Historical</td>
+                            <td>Chapter 320</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>The Great Genetic Era</td>
+                            <td>Action,Adventure</td>
+                            <td>Chapter 1161</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <h4>Genres</h4>
+                <table class="table table-bordered table-striped">
+                    <tr>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Action</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Adult</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Adventure</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Comedy</td> 
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Darma</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Ecchi</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Fantasy</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Gender Bender</td> 
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Harem</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Historical</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Horror</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Josei</td> 
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> game</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Martial Arts</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Mature</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Mecha</td> 
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> game</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Martial Arts</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Mature</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Mecha</td> 
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Mystery</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Psychological</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Romance</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> School Life</td> 
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Smut</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Sports</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Supernatural</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Tragedy</td> 
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Wuxia</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Xianxia</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Xuanhuan</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Yaoi</td> 
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Eastern</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Reincarnation</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Transmigration</td>
+                        <td><i class="fa-solid fa-circle-check fa-xs"></i> Dancer</td> 
+                    </tr>
+                </table>
+
+                
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid bg-warning p-2 text-center">
+        <h5>Copyright 2023</h5>
+        <p>Privacy and terms of Use</p>
+        <a href="https://www.facebook.com/webnovel" target="_blank" class="btn btn-white"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/freewebnovel/" target="_blank" class="btn btn-white"><i class="fa-brands fa-instagram"></i>
+        <a href="https://discord.com/" target="_blank" class="btn btn-white"><i class="fa-brands fa-discord"></i>
+        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F" target="_blank" class="btn btn-white"><i class="fa-brands fa-twitter"></i>
+        <a href="#start"><i class="fa-solid fa-circle-up"></i></a>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
